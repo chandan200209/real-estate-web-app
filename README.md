@@ -1,12 +1,39 @@
-# React + Vite
+# 🏡 RealEstatePro - Real Estate Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**RealEstatePro** is a full-stack real estate web application that offers a seamless property browsing experience. Built with **React.js** for the frontend and **Node.js** for the backend, it combines stunning animations using **Framer Motion** and clean user feedback through **React Toastify**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🏘️ Browse properties for sale or rent
+- 🔍 Search and filter listings by location, price, type, etc.
+- 📸 Property image gallery with smooth transitions
+- ✅ Instant alerts with React Toastify
+- 🎨 Smooth UI interactions powered by Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React.js
+- React Router
+- Framer Motion
+- React Toastify
+- TailwindCSS
+
+---
+
+## 📁 Project Structure
+```
+├── client/ # Frontend (React)
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── hooks/
+│ │ ├── App.js
+│ │ └── index.js
+```
+
